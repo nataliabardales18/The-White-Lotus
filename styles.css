@@ -1,0 +1,130 @@
+/* Estilos generales */
+body {
+    font-family: 'Comic Neue', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #fff0f5; /* Rosa claro */
+    color: #ff69b4; /* Rosa fuerte */
+}
+
+/* Encabezado */
+header {
+    background-color: #ffb6c1; /* Rosa pastel */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #ff69b4;
+}
+
+header h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 3rem;
+    margin: 0;
+    color: #ffffff; /* Blanco */
+}
+
+/* Navegación */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #ff69b4; /* Rosa fuerte */
+    overflow: hidden;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    background-color: #ff1493; /* Rosa más oscuro */
+    border-radius: 10px;
+}
+
+/* Secciones */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #ffffff; /* Blanco */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(255, 105, 180, 0.2);
+}
+
+section h2 {
+    font-family: 'Pacifico', cursive;
+    color: #ff69b4;
+    font-size: 2rem;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 200px; /* Cambia este valor para ajustar el tamaño */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 15px;
+    margin: 10px;
+    border: 5px solid #ffb6c1;
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+/* Formulario */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+    color: #ff69b4;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: 2px solid #ffb6c1;
+    border-radius: 10px;
+    font-family: 'Comic Neue', cursive;
+}
+
+form button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+form button:hover {
+    background-color: #ff1493;
+}
+
+/* Pie de página */
+footer {
+    background-color: #ffb6c1;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    position: relative; /* Cambiado a relative para evitar superposición */
+    bottom: 0;
+    margin-top: 20px; /* Espacio adicional */
+}
